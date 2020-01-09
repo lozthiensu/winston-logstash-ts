@@ -2,7 +2,8 @@ import * as dgram from "dgram";
 import * as net from "net";
 import * as os from "os";
 import * as winston from "winston";
-import * as Transport from "winston-transport";
+// import * as Transport from "winston-transport";
+import Transport = require('winston-transport');
 import { LogstashOption } from "./LogstashOption";
 import * as debugging from "debug";
 
